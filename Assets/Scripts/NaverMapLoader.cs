@@ -21,9 +21,12 @@ public class NaverMapLoader : MonoBehaviour
 
     public int minZoomLevel = 10;
     public int maxZoomLevel = 20;
+
+    // zoomLevel 이 클수록 확대
     public float zoomLevel = 15;
     private Vector3 _lastMousePosition;
     private bool _isPinching;
+    public bool isCity = false;
 
     private Vector2 _initialTouchPosition;
 
@@ -53,6 +56,10 @@ public class NaverMapLoader : MonoBehaviour
 
     private void Update()
     {
+        if(!isCity)
+        {
+            return;
+        }
 
         // 핀치 제스처 시뮬레이션
         if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightMeta))
@@ -88,10 +95,10 @@ public class NaverMapLoader : MonoBehaviour
         else if (Input.GetMouseButton(0) && !_isPinching)
         {
 
-            // _initialMapPosition = mapImage.rectTransform.anchoredPosition;
-            // Vector3 delta = Input.mousePosition - _lastMousePosition;
-            // HandleTouchInput(TouchPhase.Moved, delta: delta);
-            // _lastMousePosition = Input.mousePosition;
+            _initialMapPosition = mapImage.rectTransform.anchoredPosition;
+            Vector3 delta = Input.mousePosition - _lastMousePosition;
+            HandleTouchInput(TouchPhase.Moved, delta: delta);
+            _lastMousePosition = Input.mousePosition;
         }
         else if (Input.GetMouseButtonUp(0))
         {
@@ -128,10 +135,8 @@ public class NaverMapLoader : MonoBehaviour
             else
             {
                 // 드래그 제스처 처리
-                // Vector2 newPosition = _initialMapPosition + new Vector2(delta.x, delta.y) * panSpeed;
-                // mapImage.rectTransform.anchoredPosition = newPosition;
                 UpdateMapPosition(delta);
-                // StartLoadingMapImage();
+                
 
             }
         }
@@ -188,9 +193,9 @@ public class NaverMapLoader : MonoBehaviour
     {
 
         Vector2 newPosition = _initialMapPosition + new Vector2(deltaPosition.x, deltaPosition.y) * panSpeed;
-
-        Debug.Log(newPosition);
         mapImage.rectTransform.anchoredPosition = newPosition;
+
+        // StartLoadingMapImage();
     }
 
     private void UpdateCenterCoordinates(Vector2 deltaPosition)
