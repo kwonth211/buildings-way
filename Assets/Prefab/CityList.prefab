@@ -88,10 +88,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2474730014161255217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5298f8252865a4503ab59a6bc81bbf55, type: 3}
+  m_Script: {fileID: 11500000, guid: d82e4dad696d64fbbb72825b41b84b87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cityItemPrefab: {fileID: 643447797975281349, guid: 0ce33c70b632a49ad97b5df9fee46359, type: 3}
+  jsonFile: {fileID: 4900000, guid: 01c050a3a941b40979a3a4262d3c0b97, type: 3}
 --- !u!1 &2474730014902600135
 GameObject:
   m_ObjectHideFlags: 0

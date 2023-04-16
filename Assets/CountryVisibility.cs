@@ -17,7 +17,6 @@ public class CountryVisibility : MonoBehaviour
         {
             gameObject.SetActive(true);
 
-
         }
         else
         {

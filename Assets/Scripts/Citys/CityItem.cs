@@ -11,7 +11,7 @@ public class CityItem : MonoBehaviour
 
     public void SetCityData(City city)
     {
-        Debug.Log(city.Name);
+
         nameText.text = city.Name;
         descriptionText.text = city.Feature;
 
