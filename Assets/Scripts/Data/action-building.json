@@ -1,0 +1,116 @@
+[{
+        "caseNumber": 20181027,
+        "itemNumber": 158,
+        "name": "서울 강남구 대치동 101호",
+        "propertyType": "아파트",
+        "address": "서울특별시 강남구 대치동 101",
+        "coordinates": {
+            "x": 37.496044,
+            "y": 127.059396
+        },
+        "floors": 30,
+        "area": 98.75,
+        "auctionDate": "2023-06-01",
+        "startPrice": 100000000,
+        "minPrice": 80000000,
+        "predictedPrice": 110000000,
+        "cityId": 1
+    },
+    {
+        "caseNumber": 20210722,
+        "itemNumber": 104,
+        "name": "서울 강동구 상일동 18-10",
+        "propertyType": "주택",
+        "address": "서울특별시 강동구 상일동 18-10",
+        "coordinates": {
+            "x": 37.545109,
+            "y": 127.171083
+        },
+        "floors": 3,
+        "area": 49.33,
+        "auctionDate": "2023-06-02",
+        "startPrice": 50000000,
+        "minPrice": 40000000,
+        "predictedPrice": 55000000,
+        "cityId": 1
+    },
+    {
+        "caseNumber": 20220118,
+        "itemNumber": 238,
+        "name": "경기 용인시 수지구 상현동 323",
+        "propertyType": "상가",
+        "address": "경기도 용인시 수지구 상현동 323",
+        "coordinates": {
+            "x": 37.313155,
+            "y": 127.080541
+        },
+        "floors": 4,
+        "area": 172.6,
+        "auctionDate": "2023-06-03",
+        "startPrice": 400000000,
+        "minPrice": 320000000,
+        "predictedPrice": 440000000,
+        "cityId": 2
+    },
+    {
+        "caseNumber": 20211001,
+        "itemNumber": 11,
+        "name": "부산 동구 수정동 130-1",
+        "propertyType": "주택",
+        "address": "부산광역시 동구 수정동 130-1",
+        "coordinates": {
+            "x": 35.121286,
+            "y": 129.047309
+        },
+        "floors": 2,
+        "area": 75.89,
+        "auctionDate": "2023-06-04",
+        "startPrice": 70000000,
+        "minPrice": 56000000,
+        "predictedPrice": 77000000,
+        "cityId": 3
+    },
+    {
+        "caseNumber": 201812000008,
+        "itemNumber": 1,
+        "name": "그랜드오피스텔",
+        "description": "부동산 시장에 오랫동안 군림해온 권위적인 오피스텔입니다.",
+        "address": "서울특별시 강남구 역삼동 111-1",
+        "coordinates": {
+            "x": 37.499337,
+            "y": 127.028807
+        },
+        "floors": 27,
+        "area": 109.32,
+        "price": 850000000,
+        "auctionDate": "2023-05-10",
+        "startPrice": 680000000,
+        "minPrice": 650000000,
+        "predictedPrice": 830000000,
+        "propertyType": "오피스텔",
+        "cityId": 1
+
+    },
+    {
+        "caseNumber": 201807000014,
+        "itemNumber": 1,
+        "name": "서초푸르지오",
+        "description": ".",
+        "address": "서울특별시 서초구 반포동 102-5",
+        "coordinates": {
+            "x": 37.504605,
+            "y": 126.998118
+        },
+        "floors": 20,
+        "area": 76.2,
+        "price": 620000000,
+        "auctionDate": "2023-06-15",
+        "startPrice": 490000000,
+        "minPrice": 470000000,
+        "predictedPrice": 600000000,
+        "propertyType": "주택",
+        "cityId": 1
+
+    }
+
+]

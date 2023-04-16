@@ -2,36 +2,42 @@
   {
     "name": "서울 (Seoul)",
     "feature": "수요 많고 인프라 좋음, 안정적인 투자 선택",
-    "rating": 5
+    "rating": 5,
+    "cityId": 1
   },
   {
     "name": "경기 (Gyeonggi)",
     "feature": "수도권 근교 위치, 교통과 인프라가 발달, 부동산 투자에 적합",
-    "rating": 4
+    "rating": 4,
+    "cityId": 2
   },
   {
     "name": "부산 (Busan)",
     "feature": "해변가 부동산 인기, 도심도 적극 추천",
-    "rating": 4
+    "rating": 4,
+    "cityId": 3
   },
   {
     "name": "인천 (Incheon)",
     "feature": "외국인과 기업 관심 집중, 신도시 활발한 발전",
-    "rating": 4
+    "rating": 4,
+    "cityId": 4
   },
   {
     "name": "대구 (Daegu)",
     "feature": "중소규모 아파트, 도심 재개발 가능성",
-    "rating": 3
+    "rating": 3,
+    "cityId": 5
   },
   {
     "name": "광주 (Gwangju)",
     "feature": "문화시설과 대학가 인근, 산업단지 발전 가능성",
-    "rating": 3
+    "rating": 3,
+    "cityId": 6
   },
   {
     "name": "대전 (Daejeon)",
     "feature": "연구기관과 대학들 밀집, 관광과 레저 명소도 다양함",
-    "rating": 3
+    "rating": 7
   }
 ]
