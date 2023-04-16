@@ -1,0 +1,57 @@
+[
+      {
+        "caseNumber": 2018100000003,
+        "itemNumber": 3,
+        "name": "서울 용산구 이촌동 아파트",
+        "description": "3층, 84.64m², 낙찰가 예측: 230,000,000원",
+        "address": "서울 용산구 이촌동 241-15",
+        "coordinates": {
+          "x": 126.972837,
+          "y": 37.518381
+        },
+        "floors": 3,
+        "area": 84.64,
+        "price": 0,
+        "auctionDate": "2022-04-22",
+        "startPrice": 190000000,
+        "minPrice": 0,
+        "predictedPrice": 230000000
+      },
+      {
+        "caseNumber": 2018100000005,
+        "itemNumber": 5,
+        "name": "서울 강남구 청담동 빌딩",
+        "description": "지하1층 ~ 지상4층, 250m², 낙찰가 예측: 1,000,000,000원",
+        "address": "서울 강남구 청담동 1-2",
+        "coordinates": {
+          "x": 127.044478,
+          "y": 37.522184
+        },
+        "floors": 5,
+        "area": 250,
+        "price": 0,
+        "auctionDate": "2022-04-26",
+        "startPrice": 800000000,
+        "minPrice": 0,
+        "predictedPrice": 1000000000
+      },
+      {
+        "caseNumber": 2019100000001,
+        "itemNumber": 1,
+        "name": "서울 중구 충무로1가 빌딩",
+        "description": "지하1층 ~ 지상6층, 140m², 낙찰가 예측: 450,000,000원",
+        "address": "서울 중구 충무로1가 25-6",
+        "coordinates": {
+          "x": 126.991644,
+          "y": 37.563205
+        },
+        "floors": 7,
+        "area": 140,
+        "price": 0,
+        "auctionDate": "2022-05-03",
+        "startPrice": 400000000,
+        "minPrice": 0,
+        "predictedPrice": 450000000
+      }
+    ]
+  
